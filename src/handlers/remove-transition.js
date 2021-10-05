@@ -6,6 +6,6 @@
 export const removeTransition = (event) => {
    // skip if it's not a transform event
    if (event.propertyName !== "transform") return undefined;
-   //remove playing class in order to reset the element to it's original state
+   //remove playing class in order to reset the element to its original state
    event.target.classList.remove("playing");
 };
