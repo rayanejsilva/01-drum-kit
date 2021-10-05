@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <!--Adding Google Fonts-->
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Judson&display=swap"
+         rel="stylesheet"
+      />
+      <title>Te Amo</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <div class="keys">
+         <div data-key="84" class="key">
+            <kbd>T</kbd>
+            <span class="sound">m</span>
+         </div>
+         <div data-key="69" class="key">
+            <kbd>E</kbd>
+            <span class="sound">u</span>
+         </div>
+         <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">i</span>
+         </div>
+         <div data-key="77" class="key">
+            <kbd>M</kbd>
+            <span class="sound">t</span>
+         </div>
+         <div data-key="79" class="key">
+            <kbd>0</kbd>
+            <span class="sound">o</span>
+         </div>
+      </div>
+      <audio data-key="84" src="sounds/kick.wav"></audio>
+      <audio data-key="69" src="sounds/openhat.wav"></audio>
+      <audio data-key="65" src="sounds/boom.wav"></audio>
+      <audio data-key="77" src="sounds/ride.wav"></audio>
+      <audio data-key="79" src="sounds/snare.wav"></audio>
+      <script type="module" src="./src/init/index.js"></script>
+   </body>
+</html>
